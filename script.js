@@ -40,6 +40,7 @@ function actionButtonReset() {
     reset();
     btnStart.style.display = 'block';
     btnReset.style.display = 'none';
+    container.style.backgroundColor = 'transparent';
 }
 
 
