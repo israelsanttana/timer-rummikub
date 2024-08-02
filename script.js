@@ -12,6 +12,7 @@ function start() {
 }
 function pause() {
     clearInterval(interval);
+    alarm.pause();
 }
 function reset() {
     clearInterval(interval);
